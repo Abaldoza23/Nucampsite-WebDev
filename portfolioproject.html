@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony Baldoza | Designer, Frontend Developer, & Sales Executive</title>
+    <style>
+        input[type="submit"] {
+            background: indigo;
+            color: white;
+        }
+        div:hover {
+            color: red
+        }
+        a:hover {
+            color: red
+        }
+        form {
+            background: blueviolet;
+            color: white;
+            border: 10px solid indigo;
+            border-radius: 20px;
+            margin: auto;
+            margin-bottom: 10px;
+            width: 400px;
+        }
+        body {
+            text-align: center;
+        }
+        #aboutMe {
+            background: blueviolet;
+            color: white;
+        }
+        footer {
+            background-color: blueviolet;
+            padding: 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Designer, Frontend Developer, & Sales Executive</h1>
+        <h3>I design, code, and sell beautiful and innovative things, and love what I do</h3>
+    </header>
+    <nav>
+        <a href="#aboutMe">About Me</a> | <a href="#myWork">My Work</a> | <a href="#contactMe">Contact Me</a> |
+    </nav>
+    <section id="aboutMe">
+        <h2>Hi, I'm <a href="https://www.linkedin.com/in/anthony-baldoza-7a71a715a/"target="_blank">Anthony</a>,  Nice to meet you!</h2>
+        <p>Welcome to my website! I'm a salesperson transitioning into software development. With a passion for technology, I'm combining my sales expertise with coding skills to create innovative software solutions. Join me on this exciting journey as we explore the intersection of sales and software development. Let's make a positive impact in the digital world together!</p>
+    </section>
+    <section id="myWork">
+        <h2>My Work</h2>
+        <p>Here are other projects I have worked on.  Want to see more? <a href="mailto:abaldoza23@gmail.com">Email me</a></p>
+    </section>
+    <form id="contactMe">
+        <h2>Interested in collaborating wiith me?</h2>
+        <div class="row mb-3">
+            <label for="name" class="col-md-2 col-form-label">Name</label>
+            <div class="col-md-10">
+                <input type="name" id="name" name="name" placeholder="Name" required >
+            </div>
+        </div>
+        <div class="row mb-3">   
+            <label for="email" class="col-md-2 col-form-label">Email</label>
+            <div class="col-md-10">
+                <input type="email" id="email" name="email" placeholder="Email" >
+            </div>
+        </div>  
+        <div class="row mb-3">
+            <label for="phone" class="col-md-2 col-form-label">Phone</label>
+            <div class="col-5 col-md-3">
+                <input type="tel" id="phone" name="phone" placeholder="Phone" >  
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="offset-md-2 col-md-10">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </form>
+    <footer>
+        <h3>Living, learning, & leveling up one day at a time</h3>
+    </footer>
+</body>
+</html>
